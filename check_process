@@ -1,8 +1,7 @@
 ;; Test complet
 	; Manifest
 		domain="domain.tld"
-		path="/path"
-		admin="john"
+		path="/"
 		is_public=1
 		password="1Strong-Password"
 	; Checks

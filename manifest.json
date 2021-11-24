@@ -7,14 +7,12 @@
         "fr": "Logiciel de gestion de bibliothèque"
     },
     "version": "25.02.2021~ynh1",
-    "url": "https://example.com",
+    "url": "waterbear.info/",
     "upstream": {
         "license": "GPL-3.0-only",
         "website": "waterbear.info/",
-        "demo": "https://demo.example.com",
         "admindoc": "http://waterbear.info/doc/doc.php",
-        "userdoc": "https://indexmailwaterbear.wordpress.com/",
-        "code": "https://some.forge.com/example/example"
+        "userdoc": "https://indexmailwaterbear.wordpress.com/"
     },
     "license": "GPL-3.0-only",
     "maintainer": {
@@ -24,7 +22,7 @@
     "requirements": {
         "yunohost": ">= 4.3.0"
     },
-    "multi_instance": true,
+    "multi_instance": false,
     "services": [
         "nginx",
         "php7.3-fpm",
