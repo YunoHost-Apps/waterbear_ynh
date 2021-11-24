@@ -34,7 +34,7 @@ L'OPAC recommandé est [Bokeh](https://www.bokeh-library-portal.org/) mais d'aut
 
 **Shipped version:** 25.02.2021~ynh1
 
-**Demo:** https://demo.example.com
+
 
 ## Screenshots
 
@@ -57,10 +57,9 @@ L'OPAC recommandé est [Bokeh](https://www.bokeh-library-portal.org/) mais d'aut
 
 ## Documentation and resources
 
-* Official app website: https://http://waterbear.info/
+* Official app website: waterbear.info/
 * Official user documentation: https://indexmailwaterbear.wordpress.com/
 * Official admin documentation: http://waterbear.info/doc/doc.php
-* Upstream app code repository: https://some.forge.com/example/example
 * YunoHost documentation for this app: https://yunohost.org/app_waterbear
 * Report a bug: https://github.com/YunoHost-Apps/waterbear_ynh/issues
 
