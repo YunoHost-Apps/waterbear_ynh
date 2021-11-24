@@ -1,0 +1,58 @@
+{
+    "name": "Waterbear",
+    "id": "waterbear",
+    "packaging_format": 1,
+    "description": {
+        "en": "Library management software",
+        "fr": "Logiciel de gestion de bibliothèque"
+    },
+    "version": "25.02.2021~ynh1",
+    "url": "https://example.com",
+    "upstream": {
+        "license": "free",
+        "website": "https://http://waterbear.info/",
+        "demo": "https://demo.example.com",
+        "admindoc": "http://waterbear.info/doc/doc.php",
+        "userdoc": "https://indexmailwaterbear.wordpress.com/",
+        "code": "https://some.forge.com/example/example"
+    },
+    "license": "free",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.3-fpm",
+        "mysql"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "admin",
+                "type": "user"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "name": "password",
+                "type": "password",
+                "help": {
+                    "en": "Use the help field to add an information for the admin about this question.",
+                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+                }
+            }
+        ]
+    }
+}
